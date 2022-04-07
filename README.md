@@ -15,8 +15,8 @@ would like you to work on this example data reformatting problem.
 The data is from [Enron](https://en.wikipedia.org/wiki/Enron), which was
 a gas pipeline company. After a scandal, a number of their spreadsheets
 were released to the public, so this example represents a real format
-that analysts have in practice. The original spreadsheet is located at
-<https://github.com/SheetJS/enron_xls/blob/master/andrea_ring_000_1_1.pst.0.xls>.
+that analysts have in practice. The spreadsheet is located at
+<https://github.com/StreamlineDataScience/delivery-case-study/blob/master/andrea_ring_000_1_1.pst.0.xls>.
 The original spreadsheet was downloaded from
 <https://github.com/SheetJS/enron_xls>, which has information on the
 provenance of the data.

@@ -16,7 +16,7 @@ Streamline builds custom data pipelines to organize data for our clients.  This 
 
 To get an idea about how you think about writing data cleaning code, we would like you to work on this example data reformatting problem. 
 
- The data is from [Enron](https://en.wikipedia.org/wiki/Enron), which was a gas pipeline company.  After a scandal, a number of their spreadsheets were released to the public, so this example represents a real format that analysts have in practice.  The original spreadsheet is located at https://github.com/SheetJS/enron_xls/blob/master/andrea_ring_000_1_1.pst.0.xls.  The original spreadsheet was downloaded from https://github.com/SheetJS/enron_xls, which has information on the provenance of the data.
+ The data is from [Enron](https://en.wikipedia.org/wiki/Enron), which was a gas pipeline company.  After a scandal, a number of their spreadsheets were released to the public, so this example represents a real format that analysts have in practice.  The spreadsheet is located at https://github.com/StreamlineDataScience/delivery-case-study/blob/master/andrea_ring_000_1_1.pst.0.xls.  The original spreadsheet was downloaded from https://github.com/SheetJS/enron_xls, which has information on the provenance of the data.
 
 The data contains deliveries and receipts for a number of locations/facilities (e.g. ACADIAN, BRIDGELINE).  We would like the data to be reformatted into the following data columns: location, date, deliveries, receipts, where date is a date object, which should go from 2001-09-01 to 2002-02-05.  Prior month averages and the month averages can be removed. 
 
